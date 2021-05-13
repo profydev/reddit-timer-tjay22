@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './global-styles/global-styles.css';
 import './global-styles/normalize.css';
 
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
       <div>
-        <Navigation />
+        <Header />
 
         <Switch>
           <Route path="/search" />
